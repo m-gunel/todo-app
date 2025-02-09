@@ -2,12 +2,8 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/zhashkevych/todo-app/pkg/service"
-
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-
-	_ "github.com/zhashkevych/todo-app/docs"
 )
 
 type Handler struct {
