@@ -6,9 +6,6 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 	"github.com/magiconair/properties/assert"
-	"github.com/zhashkevych/todo-app"
-	"github.com/zhashkevych/todo-app/pkg/service"
-	service_mocks "github.com/zhashkevych/todo-app/pkg/service/mocks"
 	"net/http/httptest"
 	"testing"
 )
