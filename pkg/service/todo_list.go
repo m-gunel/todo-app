@@ -1,9 +1,6 @@
 package service
 
-import (
-	"github.com/zhashkevych/todo-app"
-	"github.com/zhashkevych/todo-app/pkg/repository"
-)
+
 
 type TodoListService struct {
 	repo repository.TodoList
