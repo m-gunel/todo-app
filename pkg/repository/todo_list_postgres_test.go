@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 	"github.com/stretchr/testify/assert"
-	sqlmock "github.com/zhashkevych/go-sqlxmock"
+	"github.com/DATA-DOG/sqlmock"  
 	"testing"
 )
 
