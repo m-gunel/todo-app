@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"github.com/stretchr/testify/assert"
-	sqlmock "github.com/zhashkevych/go-sqlxmock"
+	"github.com/DATA-DOG/sqlmock"  
 	"testing"
 )
 
